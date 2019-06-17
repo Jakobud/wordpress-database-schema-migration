@@ -13,7 +13,7 @@ class Wordpress_Database_Schema_Migration {
   private $optionNameSuffix = "-database-schema-migration-offset";
 
   function __construct($pluginName) {
-    $this->optionName = $pluginName . $optionNameSuffix;
+    $this->optionName = $pluginName . $this->optionNameSuffix;
   }
 
   /**
